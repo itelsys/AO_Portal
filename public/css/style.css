@@ -1,0 +1,58 @@
+/*
+    Theme Name: Day
+    Theme URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+*/
+/* ==== Google font ==== */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+@import url('font-awesome.css');
+/* ==== overwrite bootstrap standard ==== */
+@import url('animate.css');
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(css/CaviarDreams.ttf);
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "myFirstFont";
+}
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 40px; /* Set the fixed height of the footer here */
+  line-height: 40px; /* Vertically center the text there */
+  background-color: #6e6e6e;
+}
+
+.glyphicon-check {
+    color: #810052;
+    cursor: pointer;
+}
+
+.glyphicon-unchecked {
+    color: #666;
+    cursor: pointer;
+}
+.navbar{
+  background-color: #007BFF;
+}
+
+.navbar a{
+  color: white;
+}
